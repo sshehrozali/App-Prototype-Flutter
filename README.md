@@ -1,4 +1,4 @@
-# awesome_app
+# JSON Viewer Flutter
 
 A new Flutter project.
 
