@@ -1,4 +1,4 @@
-# JSON Viewer Flutter
+# App-Prototype-Flutter
 
 A new Flutter project.
 
