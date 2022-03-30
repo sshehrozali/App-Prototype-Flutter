@@ -14,18 +14,16 @@ class InputFieldWidget extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return Padding(
-      padding: const EdgeInsets.all(16.0),
-      child: TextField(
-        style: TextStyle(color: Colors.white),
-        decoration: InputDecoration(
-            labelStyle: TextStyle(color: Colors.white),
-            focusedBorder: OutlineInputBorder(
-                borderSide: BorderSide(color: Colors.white, width: 2.0)),
-            hintText: placeholder,
-            hintStyle: TextStyle(color: Colors.white),
-            label: Text(label)),
-      ),
+    return TextField(
+      style: TextStyle(color: Colors.white),
+      keyboardType: TextInputType.emailAddress,
+      decoration: InputDecoration(
+          labelStyle: TextStyle(color: Colors.white),
+          focusedBorder: OutlineInputBorder(
+              borderSide: BorderSide(color: Colors.white, width: 2.0)),
+          hintText: placeholder,
+          hintStyle: TextStyle(color: Colors.white),
+          label: Text(label)),
     );
   }
 }
